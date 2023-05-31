@@ -9,7 +9,6 @@ if (strHours.endsWith('11')) {
     alert(`Секунд у ${hours} годинах: ${result}`);
 } else if  (strHours.charAt(strHours.length - 1) === '1') {
     alert(`Секунд у ${hours} годині: ${result}`);
-}
-else {
+} else {
     alert(`Секунд у ${hours} годинах: ${result}`);
 }
